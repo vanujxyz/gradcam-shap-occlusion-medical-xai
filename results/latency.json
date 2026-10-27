@@ -1,0 +1,134 @@
+{
+ "cuda/mobilenet_v2": {
+  "Grad-CAM": {
+   "median_s": 0.020276700000977144,
+   "mem_mb": 115.576171875
+  },
+  "Occlusion": {
+   "median_s": 0.778570349997608,
+   "mem_mb": 1549.60791015625
+  },
+  "KernelSHAP": {
+   "median_s": 1.688042649999261,
+   "mem_mb": 1208.923828125
+  },
+  "CGHA-Occ": {
+   "median_s": 0.10385629999655066,
+   "mem_mb": 331.501953125
+  },
+  "CGHA-Shap": {
+   "median_s": 0.1828860999958124,
+   "mem_mb": 860.15771484375
+  }
+ },
+ "cpu/mobilenet_v2": {
+  "Grad-CAM": {
+   "median_s": 0.050095250000595115,
+   "mem_mb": 2170.515625
+  },
+  "Occlusion": {
+   "median_s": 8.87052484999731,
+   "mem_mb": 3028.99609375
+  },
+  "KernelSHAP": {
+   "median_s": 17.742527549999068,
+   "mem_mb": 2375.1953125
+  },
+  "CGHA-Occ": {
+   "median_s": 0.7944734999982757,
+   "mem_mb": 2485.95703125
+  },
+  "CGHA-Shap": {
+   "median_s": 2.334088600007817,
+   "mem_mb": 2371.96875
+  }
+ },
+ "cuda/efficientnet_b0": {
+  "Grad-CAM": {
+   "median_s": 0.06345054999837885,
+   "mem_mb": 155.927734375
+  },
+  "Occlusion": {
+   "median_s": 0.9515155000044615,
+   "mem_mb": 1581.1220703125
+  },
+  "KernelSHAP": {
+   "median_s": 1.9810800500054029,
+   "mem_mb": 1240.43798828125
+  },
+  "CGHA-Occ": {
+   "median_s": 0.1496151000028476,
+   "mem_mb": 363.01611328125
+  },
+  "CGHA-Shap": {
+   "median_s": 0.2380163000052562,
+   "mem_mb": 891.671875
+  }
+ },
+ "cpu/efficientnet_b0": {
+  "Grad-CAM": {
+   "median_s": 0.07233580000320217,
+   "mem_mb": 2525.921875
+  },
+  "Occlusion": {
+   "median_s": 12.75617880000209,
+   "mem_mb": 3330.18359375
+  },
+  "KernelSHAP": {
+   "median_s": 21.69574724999984,
+   "mem_mb": 2683.65625
+  },
+  "CGHA-Occ": {
+   "median_s": 1.133548650002922,
+   "mem_mb": 2490.265625
+  },
+  "CGHA-Shap": {
+   "median_s": 3.020560650009429,
+   "mem_mb": 2696.7265625
+  }
+ },
+ "cuda/resnet18": {
+  "Grad-CAM": {
+   "median_s": 0.015254599995387252,
+   "mem_mb": 196.11328125
+  },
+  "Occlusion": {
+   "median_s": 0.819436300000234,
+   "mem_mb": 1373.30419921875
+  },
+  "KernelSHAP": {
+   "median_s": 1.5618243500066455,
+   "mem_mb": 893.5576171875
+  },
+  "CGHA-Occ": {
+   "median_s": 0.0965908500002115,
+   "mem_mb": 305.7998046875
+  },
+  "CGHA-Shap": {
+   "median_s": 0.164234950003447,
+   "mem_mb": 685.15869140625
+  }
+ },
+ "cpu/resnet18": {
+  "Grad-CAM": {
+   "median_s": 0.11422794999816688,
+   "mem_mb": 2640.69140625
+  },
+  "Occlusion": {
+   "median_s": 15.069601799994416,
+   "mem_mb": 3497.37890625
+  },
+  "KernelSHAP": {
+   "median_s": 25.724294299994654,
+   "mem_mb": 2839.7109375
+  },
+  "CGHA-Occ": {
+   "median_s": 1.6791385999968043,
+   "mem_mb": 2636.5703125
+  },
+  "CGHA-Shap": {
+   "median_s": 3.481132599998091,
+   "mem_mb": 2845.28125
+  }
+ }
+}
